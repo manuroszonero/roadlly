@@ -1,0 +1,56 @@
+{
+  "traffic_train": {
+    "initial_rows": 1883520,
+    "final_rows": 1883520,
+    "exact_duplicates_removed": 0,
+    "key_duplicates_removed": 0,
+    "negative_speed_corrected": 0,
+    "negative_flow_corrected": 0,
+    "negative_occupancy_corrected": 0,
+    "negative_delay_corrected": 0,
+    "negative_congestion_corrected": 0,
+    "spikes_smoothed": 0,
+    "stuck_sensor_events": 1,
+    "row_order_restored": true
+  },
+  "traffic_validation": {
+    "initial_rows": 502272,
+    "final_rows": 502272,
+    "exact_duplicates_removed": 0,
+    "key_duplicates_removed": 0,
+    "negative_speed_corrected": 0,
+    "negative_flow_corrected": 0,
+    "negative_occupancy_corrected": 0,
+    "negative_delay_corrected": 0,
+    "negative_congestion_corrected": 0,
+    "spikes_smoothed": 0,
+    "stuck_sensor_events": 5,
+    "row_order_restored": true
+  },
+  "forecast_targets_train": {
+    "initial_rows": 366240,
+    "final_rows": 366240,
+    "duplicates_removed": 0,
+    "negative_targets_corrected": 0,
+    "row_order_restored": true
+  },
+  "forecast_targets_validation": {
+    "initial_rows": 481344,
+    "final_rows": 481344,
+    "duplicates_removed": 0,
+    "negative_targets_corrected": 0,
+    "row_order_restored": true
+  },
+  "context_train": {
+    "initial_rows": 4320,
+    "final_rows": 4320,
+    "null_event_ids_standardized": 4303,
+    "row_order_restored": true
+  },
+  "context_validation": {
+    "initial_rows": 1152,
+    "final_rows": 1152,
+    "null_event_ids_standardized": 1109,
+    "row_order_restored": true
+  }
+}
